@@ -1,7 +1,7 @@
 from pyrogram import Client
-from bot.config import configs
+from bot.config import configClass
 
-confi = configs()
+confi = configClass()
 
 app = Client( 
     "jadoo",
