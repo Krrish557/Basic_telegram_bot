@@ -5,8 +5,8 @@ confi = configClass()
 
 app = Client( 
     "jadoo",
-    api_id = confi.api_id, 
-    api_hash = confi.api_hash, 
-    bot_token = confi.bot_token, 
+    api_id = confi.api, 
+    api_hash = confi.hash, 
+    bot_token = confi.token, 
     plugins = dict(root='bot/modules/')
 )
